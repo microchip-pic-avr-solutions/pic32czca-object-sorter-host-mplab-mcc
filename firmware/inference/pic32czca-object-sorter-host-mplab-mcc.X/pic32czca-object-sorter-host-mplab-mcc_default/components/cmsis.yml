@@ -1,0 +1,1849 @@
+configVersion: 1.0.0
+componentName: cmsis
+coreVersion: 5.9.0
+device: PIC32CZ2051CA70144
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: cmsis
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: CMSIS_5
+  type: package
+  version: 5.9.0
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.25.1
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: cmsis
+          x: '5'
+          y: '5'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    COMPLEX_MATH_FUNCTIONS_H:
+      attributes:
+        id: COMPLEX_MATH_FUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    CONTROLLER_FUNCTIONS_F16_H:
+      attributes:
+        id: CONTROLLER_FUNCTIONS_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    QUATERNION_MATH_FUNCTIONS_H:
+      attributes:
+        id: QUATERNION_MATH_FUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    SVM_FUNCTIONS_F16_H:
+      attributes:
+        id: SVM_FUNCTIONS_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    SVM_FUNCTIONS_H:
+      attributes:
+        id: SVM_FUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONST_STRUCTS_H:
+      attributes:
+        id: ARM_CONST_STRUCTS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    FAST_MATH_FUNCTIONS_F16_H:
+      attributes:
+        id: FAST_MATH_FUNCTIONS_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    CMSIS_DSP_INCLUDE_DIRS:
+      attributes:
+        id: CMSIS_DSP_INCLUDE_DIRS
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: Setting
+    ARM_MATH_H:
+      attributes:
+        id: ARM_MATH_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    TRANSFORM_FUNCTIONS_F16_H:
+      attributes:
+        id: TRANSFORM_FUNCTIONS_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    STATISTICS_FUNCTIONS_F16_H:
+      attributes:
+        id: STATISTICS_FUNCTIONS_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_MVE_TABLES_H:
+      attributes:
+        id: ARM_MVE_TABLES_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    BAYES_FUNCTIONS_F16_H:
+      attributes:
+        id: BAYES_FUNCTIONS_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    BAYES_FUNCTIONS_H:
+      attributes:
+        id: BAYES_FUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    FAST_MATH_FUNCTIONS_H:
+      attributes:
+        id: FAST_MATH_FUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    STATISTICS_FUNCTIONS_H:
+      attributes:
+        id: STATISTICS_FUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_COMMON_TABLES_H:
+      attributes:
+        id: ARM_COMMON_TABLES_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    DISTANCE_FUNCTIONS_F16_H:
+      attributes:
+        id: DISTANCE_FUNCTIONS_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_VEC_MATH_H:
+      attributes:
+        id: ARM_VEC_MATH_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    DISTANCE_FUNCTIONS_H:
+      attributes:
+        id: DISTANCE_FUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_MATH_MEMORY_H:
+      attributes:
+        id: ARM_MATH_MEMORY_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_MATH_TYPES_H:
+      attributes:
+        id: ARM_MATH_TYPES_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    SVM_DEFINES_H:
+      attributes:
+        id: SVM_DEFINES_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    BASIC_MATH_FUNCTIONS_F16_H:
+      attributes:
+        id: BASIC_MATH_FUNCTIONS_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    FILTERING_FUNCTIONS_H:
+      attributes:
+        id: FILTERING_FUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_MATH_TYPES_F16_H:
+      attributes:
+        id: ARM_MATH_TYPES_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    UTILS_H:
+      attributes:
+        id: UTILS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    FILTERING_FUNCTIONS_F16_H:
+      attributes:
+        id: FILTERING_FUNCTIONS_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    NONE_H:
+      attributes:
+        id: NONE_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    SUPPORT_FUNCTIONS_H:
+      attributes:
+        id: SUPPORT_FUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    MATRIX_FUNCTIONS_F16_H:
+      attributes:
+        id: MATRIX_FUNCTIONS_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_COMMON_TABLES_F16_H:
+      attributes:
+        id: ARM_COMMON_TABLES_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_VEC_MATH_F16_H:
+      attributes:
+        id: ARM_VEC_MATH_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    CONTROLLER_FUNCTIONS_H:
+      attributes:
+        id: CONTROLLER_FUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_MATH_F16_H:
+      attributes:
+        id: ARM_MATH_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    CMSIS_DSP_LIB_cortexM7lfdp:
+      attributes:
+        id: CMSIS_DSP_LIB_cortexM7lfdp
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: Library
+    SUPPORT_FUNCTIONS_F16_H:
+      attributes:
+        id: SUPPORT_FUNCTIONS_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    CMSIS_DSP_XC32CPP_INCLUDE_DIRS:
+      attributes:
+        id: CMSIS_DSP_XC32CPP_INCLUDE_DIRS
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: Setting
+    BASIC_MATH_FUNCTIONS_H:
+      attributes:
+        id: BASIC_MATH_FUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    INTERPOLATION_FUNCTIONS_F16_H:
+      attributes:
+        id: INTERPOLATION_FUNCTIONS_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    TRANSFORM_FUNCTIONS_H:
+      attributes:
+        id: TRANSFORM_FUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    INTERPOLATION_FUNCTIONS_H:
+      attributes:
+        id: INTERPOLATION_FUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_MVE_TABLES_F16_H:
+      attributes:
+        id: ARM_MVE_TABLES_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    COMPLEX_MATH_FUNCTIONS_F16_H:
+      attributes:
+        id: COMPLEX_MATH_FUNCTIONS_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_HELIUM_UTILS_H:
+      attributes:
+        id: ARM_HELIUM_UTILS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    MATRIX_FUNCTIONS_H:
+      attributes:
+        id: MATRIX_FUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONST_STRUCTS_F16_H:
+      attributes:
+        id: ARM_CONST_STRUCTS_F16_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    CMSIS_DSP_ENABLE:
+      attributes:
+        id: CMSIS_DSP_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    ARM_CONVOLVE_HWC_Q7_BASIC_C:
+      attributes:
+        id: ARM_CONVOLVE_HWC_Q7_BASIC_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_SOFTMAX_WITH_BATCH_Q7_C:
+      attributes:
+        id: ARM_SOFTMAX_WITH_BATCH_Q7_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONVOLVE_HWC_Q7_FAST_C:
+      attributes:
+        id: ARM_CONVOLVE_HWC_Q7_FAST_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONVOLVE_S16_C:
+      attributes:
+        id: ARM_CONVOLVE_S16_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_RELU_Q7_C:
+      attributes:
+        id: ARM_RELU_Q7_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_AVGPOOL_S16_C:
+      attributes:
+        id: ARM_AVGPOOL_S16_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONVOLVE_WRAPPER_S8_C:
+      attributes:
+        id: ARM_CONVOLVE_WRAPPER_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_MULT_Q7_C:
+      attributes:
+        id: ARM_NN_MULT_Q7_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_POOL_Q7_HWC_C:
+      attributes:
+        id: ARM_POOL_Q7_HWC_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_DEPTHWISE_CONV_S8_CORE_C:
+      attributes:
+        id: ARM_NN_DEPTHWISE_CONV_S8_CORE_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONVOLVE_1_X_N_S8_C:
+      attributes:
+        id: ARM_CONVOLVE_1_X_N_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONVOLVE_HWC_Q7_BASIC_NONSQUARE_C:
+      attributes:
+        id: ARM_CONVOLVE_HWC_Q7_BASIC_NONSQUARE_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_SOFTMAX_U8_C:
+      attributes:
+        id: ARM_SOFTMAX_U8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_DEPTHWISE_CONV_S8_C:
+      attributes:
+        id: ARM_DEPTHWISE_CONV_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_TABLES_H:
+      attributes:
+        id: ARM_NN_TABLES_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_MAT_MULT_S8_C:
+      attributes:
+        id: ARM_NN_MAT_MULT_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_SOFTMAX_S16_C:
+      attributes:
+        id: ARM_SOFTMAX_S16_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_MAT_MULT_KERNEL_Q7_Q15_C:
+      attributes:
+        id: ARM_NN_MAT_MULT_KERNEL_Q7_Q15_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_SVDF_STATE_S16_S8_C:
+      attributes:
+        id: ARM_SVDF_STATE_S16_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONVOLVE_HWC_Q15_FAST_NONSQUARE_C:
+      attributes:
+        id: ARM_CONVOLVE_HWC_Q15_FAST_NONSQUARE_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONVOLVE_WRAPPER_S16_C:
+      attributes:
+        id: ARM_CONVOLVE_WRAPPER_S16_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_MAT_MULT_KERNEL_S8_S16_C:
+      attributes:
+        id: ARM_NN_MAT_MULT_KERNEL_S8_S16_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_DEPTHWISE_CONV_WRAPPER_S8_C:
+      attributes:
+        id: ARM_DEPTHWISE_CONV_WRAPPER_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_MATH_TYPES_H:
+      attributes:
+        id: ARM_NN_MATH_TYPES_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_SOFTMAX_S8_S16_C:
+      attributes:
+        id: ARM_SOFTMAX_S8_S16_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    CMSIS_NN_XC32CPP_INCLUDE_DIRS:
+      attributes:
+        id: CMSIS_NN_XC32CPP_INCLUDE_DIRS
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: Setting
+    ARM_DEPTHWISE_SEPARABLE_CONV_HWC_Q7_NONSQUARE_C:
+      attributes:
+        id: ARM_DEPTHWISE_SEPARABLE_CONV_HWC_Q7_NONSQUARE_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_SOFTMAX_Q15_C:
+      attributes:
+        id: ARM_SOFTMAX_Q15_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_ACTIVATIONS_Q7_C:
+      attributes:
+        id: ARM_NN_ACTIVATIONS_Q7_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_FULLY_CONNECTED_Q7_C:
+      attributes:
+        id: ARM_FULLY_CONNECTED_Q7_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_FULLY_CONNECTED_S8_C:
+      attributes:
+        id: ARM_FULLY_CONNECTED_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONCATENATION_S8_W_C:
+      attributes:
+        id: ARM_CONCATENATION_S8_W_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_Q7_TO_Q15_NO_SHIFT_C:
+      attributes:
+        id: ARM_Q7_TO_Q15_NO_SHIFT_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_ELEMENTWISE_ADD_S8_C:
+      attributes:
+        id: ARM_ELEMENTWISE_ADD_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_RESHAPE_S8_C:
+      attributes:
+        id: ARM_RESHAPE_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    CMSIS_NN_INCLUDE_DIRS:
+      attributes:
+        id: CMSIS_NN_INCLUDE_DIRS
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: Setting
+    ARM_NN_VEC_MAT_MULT_T_SVDF_S8_C:
+      attributes:
+        id: ARM_NN_VEC_MAT_MULT_T_SVDF_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_FULLY_CONNECTED_Q7_OPT_C:
+      attributes:
+        id: ARM_FULLY_CONNECTED_Q7_OPT_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONVOLVE_S8_C:
+      attributes:
+        id: ARM_CONVOLVE_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_MULT_Q15_C:
+      attributes:
+        id: ARM_NN_MULT_Q15_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_MAT_MULT_NT_T_S8_C:
+      attributes:
+        id: ARM_NN_MAT_MULT_NT_T_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_SVDF_S8_C:
+      attributes:
+        id: ARM_SVDF_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONVOLVE_FAST_S16_C:
+      attributes:
+        id: ARM_CONVOLVE_FAST_S16_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONCATENATION_S8_Y_C:
+      attributes:
+        id: ARM_CONCATENATION_S8_Y_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONVOLVE_HWC_Q7_RGB_C:
+      attributes:
+        id: ARM_CONVOLVE_HWC_Q7_RGB_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_FULLY_CONNECTED_Q15_OPT_C:
+      attributes:
+        id: ARM_FULLY_CONNECTED_Q15_OPT_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_DEPTHWISE_CONV_S16_C:
+      attributes:
+        id: ARM_DEPTHWISE_CONV_S16_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONVOLVE_1X1_S8_FAST_C:
+      attributes:
+        id: ARM_CONVOLVE_1X1_S8_FAST_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_ELEMENTWISE_ADD_S16_C:
+      attributes:
+        id: ARM_ELEMENTWISE_ADD_S16_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_RELU6_S8_C:
+      attributes:
+        id: ARM_RELU6_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONVOLVE_HWC_Q7_FAST_NONSQUARE_C:
+      attributes:
+        id: ARM_CONVOLVE_HWC_Q7_FAST_NONSQUARE_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_MAX_POOL_S8_C:
+      attributes:
+        id: ARM_MAX_POOL_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_VEC_MAT_MULT_T_S8_C:
+      attributes:
+        id: ARM_NN_VEC_MAT_MULT_T_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_ACTIVATIONS_Q15_C:
+      attributes:
+        id: ARM_NN_ACTIVATIONS_Q15_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_FULLY_CONNECTED_S16_C:
+      attributes:
+        id: ARM_FULLY_CONNECTED_S16_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_MAT_MULT_KERNEL_Q7_Q15_REORDERED_C:
+      attributes:
+        id: ARM_NN_MAT_MULT_KERNEL_Q7_Q15_REORDERED_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_DEPTHWISE_SEPARABLE_CONV_HWC_Q7_C:
+      attributes:
+        id: ARM_DEPTHWISE_SEPARABLE_CONV_HWC_Q7_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NNFUNCTIONS_H:
+      attributes:
+        id: ARM_NNFUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONVOLVE_HWC_Q15_FAST_C:
+      attributes:
+        id: ARM_CONVOLVE_HWC_Q15_FAST_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_FULLY_CONNECTED_MAT_Q7_VEC_Q15_C:
+      attributes:
+        id: ARM_FULLY_CONNECTED_MAT_Q7_VEC_Q15_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_SOFTMAX_COMMON_S8_C:
+      attributes:
+        id: ARM_NN_SOFTMAX_COMMON_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_RELU_Q15_C:
+      attributes:
+        id: ARM_RELU_Q15_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONVOLVE_HWC_Q15_BASIC_C:
+      attributes:
+        id: ARM_CONVOLVE_HWC_Q15_BASIC_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_DEPTHWISE_CONV_U8_BASIC_VER1_C:
+      attributes:
+        id: ARM_DEPTHWISE_CONV_U8_BASIC_VER1_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_MAT_MUL_KERNEL_S16_C:
+      attributes:
+        id: ARM_NN_MAT_MUL_KERNEL_S16_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_FULLY_CONNECTED_MAT_Q7_VEC_Q15_OPT_C:
+      attributes:
+        id: ARM_FULLY_CONNECTED_MAT_Q7_VEC_Q15_OPT_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_ACCUMULATE_Q7_TO_Q15_C:
+      attributes:
+        id: ARM_NN_ACCUMULATE_Q7_TO_Q15_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_TYPES_H:
+      attributes:
+        id: ARM_NN_TYPES_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_SOFTMAX_Q7_C:
+      attributes:
+        id: ARM_SOFTMAX_Q7_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_SOFTMAX_S8_C:
+      attributes:
+        id: ARM_SOFTMAX_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_VEC_MAT_MULT_T_S16_C:
+      attributes:
+        id: ARM_NN_VEC_MAT_MULT_T_S16_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONVOLVE_1X1_HWC_Q7_FAST_NONSQUARE_C:
+      attributes:
+        id: ARM_CONVOLVE_1X1_HWC_Q7_FAST_NONSQUARE_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_DEPTHWISE_CONV_NT_T_PADDED_S8_C:
+      attributes:
+        id: ARM_NN_DEPTHWISE_CONV_NT_T_PADDED_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_Q7_TO_Q15_WITH_OFFSET_C:
+      attributes:
+        id: ARM_Q7_TO_Q15_WITH_OFFSET_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_Q7_TO_Q15_REORDERED_WITH_OFFSET_C:
+      attributes:
+        id: ARM_Q7_TO_Q15_REORDERED_WITH_OFFSET_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_DEPTHWISE_CONV_3X3_S8_C:
+      attributes:
+        id: ARM_DEPTHWISE_CONV_3X3_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_ELEMENTWISE_MUL_S8_C:
+      attributes:
+        id: ARM_ELEMENTWISE_MUL_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_DEPTHWISE_CONV_NT_T_S8_C:
+      attributes:
+        id: ARM_NN_DEPTHWISE_CONV_NT_T_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_DEPTHWISE_CONV_S8_OPT_C:
+      attributes:
+        id: ARM_DEPTHWISE_CONV_S8_OPT_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_MAT_MUL_CORE_1X_S8_C:
+      attributes:
+        id: ARM_NN_MAT_MUL_CORE_1X_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NNTABLES_C:
+      attributes:
+        id: ARM_NNTABLES_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_FULLY_CONNECTED_Q15_C:
+      attributes:
+        id: ARM_FULLY_CONNECTED_Q15_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_MAT_MUL_CORE_4X_S8_C:
+      attributes:
+        id: ARM_NN_MAT_MUL_CORE_4X_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONCATENATION_S8_X_C:
+      attributes:
+        id: ARM_CONCATENATION_S8_X_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_MAX_POOL_S16_C:
+      attributes:
+        id: ARM_MAX_POOL_S16_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NNSUPPORTFUNCTIONS_H:
+      attributes:
+        id: ARM_NNSUPPORTFUNCTIONS_H
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_CONCATENATION_S8_Z_C:
+      attributes:
+        id: ARM_CONCATENATION_S8_Z_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_ELEMENTWISE_MUL_S16_C:
+      attributes:
+        id: ARM_ELEMENTWISE_MUL_S16_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_Q7_TO_Q15_REORDERED_NO_SHIFT_C:
+      attributes:
+        id: ARM_Q7_TO_Q15_REORDERED_NO_SHIFT_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_NN_ADD_Q7_C:
+      attributes:
+        id: ARM_NN_ADD_Q7_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    ARM_AVGPOOL_S8_C:
+      attributes:
+        id: ARM_AVGPOOL_S8_C
+      children:
+      - children:
+        - attributes:
+            id: enabled
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: File
+    CMSIS_NN_ENABLE:
+      attributes:
+        id: CMSIS_NN_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+  userData: {}

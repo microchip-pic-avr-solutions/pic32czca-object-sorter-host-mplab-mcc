@@ -1,0 +1,136 @@
+configVersion: 1.0.0
+componentName: drvGmac
+coreVersion: 5.9.0
+device: PIC32CZ2051CA70144
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: drvGmac
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: net
+  type: package
+  version: v3.14.5
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: GMAC_PHY_Dependency
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: drvExtPhyLan867x
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: libdrvExtPhyLan867x
+            type: String
+          type: Attributes
+        type: DirectDependency
+      type: Attachments
+    type: drvGmac
+  elementPosition:
+    attributes:
+      id: DATA LINK LAYER
+    children:
+    - children:
+      - attributes:
+          id: drvGmac
+          x: '177'
+          y: '203'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    DRV_GMAC_PHY_TYPE:
+      attributes:
+        id: DRV_GMAC_PHY_TYPE
+      children:
+      - children:
+        - attributes:
+            id: drvGmac
+            value: LAN867x
+          type: Dynamic
+        type: Values
+      type: String
+    TCPIP_GMAC_ETH_OF_100:
+      attributes:
+        id: TCPIP_GMAC_ETH_OF_100
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    TCPIP_GMAC_ETH_OF_FULL_DUPLEX:
+      attributes:
+        id: TCPIP_GMAC_ETH_OF_FULL_DUPLEX
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    TCPIP_GMAC_ETH_OF_MDIX_AUTO:
+      attributes:
+        id: TCPIP_GMAC_ETH_OF_MDIX_AUTO
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    TCPIP_GMAC_ETH_OF_AUTO_NEGOTIATION:
+      attributes:
+        id: TCPIP_GMAC_ETH_OF_AUTO_NEGOTIATION
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    DRV_GMAC_NOCACHE_MEM_ADDRESS:
+      attributes:
+        id: DRV_GMAC_NOCACHE_MEM_ADDRESS
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            id: drvGmac
+            value: '126976'
+          type: Dynamic
+        - attributes:
+            value: '541065216'
+          type: User
+        type: Values
+      type: Hex
+    DRV_GMAC_NO_CACHE_CONFIG:
+      attributes:
+        id: DRV_GMAC_NO_CACHE_CONFIG
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+  userData: {}

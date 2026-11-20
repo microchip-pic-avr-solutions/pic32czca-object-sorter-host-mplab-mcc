@@ -1,0 +1,191 @@
+/*******************************************************************************
+  MPLAB Harmony Application Header File
+
+  Company:
+    Microchip Technology Inc.
+
+  File Name:
+    app_ml.h
+
+  Summary:
+    This header file provides prototypes and definitions for the application.
+
+  Description:
+    This header file provides function prototypes and data type definitions for
+    the application.  Some of these are required by the system (such as the
+    "APP_ML_Initialize" and "APP_ML_Tasks" prototypes) and some of them are only used
+    internally by the application (such as the "APP_ML_STATES" definition).  Both
+    are defined here for convenience.
+*******************************************************************************/
+
+/*******************************************************************************
+* Copyright (C) 2026 Microchip Technology Inc. and its subsidiaries.
+*
+* Subject to your compliance with these terms, you may use Microchip software
+* and any derivatives exclusively with Microchip products. It is your
+* responsibility to comply with third party license terms applicable to your
+* use of third party software (including open source software) that may
+* accompany Microchip software.
+*
+* THIS SOFTWARE IS SUPPLIED BY MICROCHIP "AS IS". NO WARRANTIES, WHETHER
+* EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS SOFTWARE, INCLUDING ANY IMPLIED
+* WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY, AND FITNESS FOR A
+* PARTICULAR PURPOSE.
+*
+* IN NO EVENT WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE,
+* INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY KIND
+* WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF MICROCHIP HAS
+* BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE FORESEEABLE. TO THE
+* FULLEST EXTENT ALLOWED BY LAW, MICROCHIP'S TOTAL LIABILITY ON ALL CLAIMS IN
+* ANY WAY RELATED TO THIS SOFTWARE WILL NOT EXCEED THE AMOUNT OF FEES, IF ANY,
+* THAT YOU HAVE PAID DIRECTLY TO MICROCHIP FOR THIS SOFTWARE.
+*******************************************************************************/
+
+#ifndef _APP_ML_H
+#define _APP_ML_H
+
+// *****************************************************************************
+// *****************************************************************************
+// Section: Included Files
+// *****************************************************************************
+// *****************************************************************************
+
+#include <stdint.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdlib.h>
+#include "configuration.h"
+
+// DOM-IGNORE-BEGIN
+#ifdef __cplusplus  // Provide C++ Compatibility
+
+extern "C" {
+
+#endif
+// DOM-IGNORE-END
+
+// *****************************************************************************
+// *****************************************************************************
+// Section: Type Definitions
+// *****************************************************************************
+// *****************************************************************************
+
+#define ML_CLASS_SQUARE     0x01
+#define ML_CLASS_TRIANGLE   0x02
+#define ML_CLASS_CIRCLE     0x03
+#define ML_CLASS_UNKNOWN    0x04
+
+// *****************************************************************************
+/* Application states
+
+  Summary:
+    Application states enumeration
+
+  Description:
+    This enumeration defines the valid application states.  These states
+    determine the behavior of the application at various times.
+*/
+
+typedef enum
+{
+    APP_ML_STATE_INIT = 0,
+    APP_ML_STATE_WAIT_CAM_READY,
+    APP_ML_STATE_SERVICE_TASKS,
+    APP_ML_STATE_WAIT_IMAGE,
+    APP_ML_STATE_RUN_INFERENCE,
+    APP_ML_STATE_INFERENCE_COMPLETE,
+    APP_ML_STATE_ERROR
+} APP_ML_STATES;
+
+
+// *****************************************************************************
+/* Application Data
+
+  Summary:
+    Holds application data
+
+  Description:
+    This structure holds the application's data.
+
+  Remarks:
+    Application strings and buffers are be defined outside this structure.
+ */
+
+typedef struct
+{
+    APP_ML_STATES state;
+    volatile bool ml_ready;
+    volatile bool result_ready;
+    uint8_t classification_result;
+    uint8_t confidence;
+    uint8_t init_retry_count;
+} APP_ML_DATA;
+
+// *****************************************************************************
+// *****************************************************************************
+// Section: Application Callback Routines
+// *****************************************************************************
+// *****************************************************************************
+/* These routines are called by drivers when certain events occur.
+*/
+
+// *****************************************************************************
+// *****************************************************************************
+// Section: Application Initialization and State Machine Functions
+// *****************************************************************************
+// *****************************************************************************
+
+/*******************************************************************************
+  Function:
+    void APP_ML_Initialize ( void )
+
+  Summary:
+     MPLAB Harmony application initialization routine.
+
+  Description:
+    This function initializes the Harmony application.  It places the
+    application in its initial state and prepares it to run so that its
+    APP_ML_Tasks function can be called.
+
+  Precondition:
+    All other system initialization routines should be called before calling
+    this routine (in "SYS_Initialize").
+
+  Parameters:
+    None.
+
+  Returns:
+    None.
+
+  Example:
+    <code>
+    APP_ML_Initialize();
+    </code>
+
+  Remarks:
+    This routine must be called from the SYS_Initialize function.
+*/
+
+extern APP_ML_DATA app_mlData;
+
+void APP_ML_Initialize(void);
+void APP_ML_Tasks(void);
+
+bool APP_ML_IsReady(void);
+bool APP_ML_IsResultReady(void);
+uint8_t APP_ML_GetClassificationResult(void);
+uint8_t APP_ML_GetConfidence(void);
+void APP_ML_TriggerInference(void);
+void APP_ML_AcknowledgeResult(void);
+
+//DOM-IGNORE-BEGIN
+#ifdef __cplusplus
+}
+#endif
+//DOM-IGNORE-END
+
+#endif /* _APP_ML_H */
+
+/*******************************************************************************
+ End of File
+ */
